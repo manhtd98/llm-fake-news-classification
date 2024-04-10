@@ -1,0 +1,16 @@
+transformers==4.39.1
+langchain==0.1.1
+langchain-community==0.0.20
+langchain-core==0.1.23
+langchain-elasticsearch==0.1.0
+jq==1.6.0
+bitsandbytes==0.42.0
+einops==0.7.0
+streamlit==1.32.2
+sentence-transformers==2.4.0
+sentencepiece==0.2.0
+streamlit-audiorecorder
+faster-whisper
+python-dotenv
+loguru
+opentelemetry-instrumentation-fastapi

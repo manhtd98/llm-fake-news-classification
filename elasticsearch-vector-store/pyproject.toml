@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = ["Manh Tran <manhtd98>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+langchain-elasticsearch = "^0.1.0"
+sentence-transformers = "^2.5.1"
+jq = "^1.6.0"
+langchain = "^0.1.11"
+python-dotenv = "^1.0.1"
+opentelemetry-sdk = "^1.23.0"
+gunicorn = "^21.2.0"
+uvicorn = "^0.27.1"
+opentelemetry-instrumentation-fastapi = "^0.44b0"
+loguru = "^0.7.2"
+langchain-community = "^0.0.26"
+ctransformers = "^0.2.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
